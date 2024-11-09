@@ -2,7 +2,7 @@ require('dotenv').config()
 
 const mongoose = require('mongoose');
 
-const url = process.env.MONGO_URL
+const url = "mongodb://admin:N4jMhSGKqCSYfLfr@cluster0.ixaxin2.mongodb.net/Paytm-App"
 mongoose.connect(url)
 
 const userSchema = new mongoose.Schema({

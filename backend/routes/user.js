@@ -6,7 +6,7 @@ const jwt = require('jsonwebtoken')
 const authMiddlewar = require('../middleware')
 
 require('dotenv').config()
-const JWT_SECRET = process.env.TOKEN
+const JWT_SECRET = "Yash-032"
 
 const UserRoute = express.Router();
 

@@ -1,7 +1,7 @@
 require('dotenv').config()
 
 const jwt = require('jsonwebtoken');
-const JWT_SECRET = process.env.TOKEN
+const JWT_SECRET = "Yash-032"
 
 function authMiddlewar(req, res, next){
     const authHeader = req.headers.authorization
